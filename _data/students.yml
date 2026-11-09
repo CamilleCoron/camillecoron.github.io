@@ -10,8 +10,17 @@ doctorat:
   - name: Arnaud Becheler
     url: https://becheler.github.io/
 
-stages: []
-projets: []
+stages: 
+    - name: "Gaspard Dousson Lys"
+      year: "2025"
+      programme: "M2"
+      topic_fr: "Estimation d'histoire migratoire à partir de données d'admixture"
+      supervisors: "Tristan Mary-Huard et Paul Verdu"
+projets:
+    - name: "Juan Mardomingo Sanz et Raphaël Tran Thanh"
+      year: "2025"
+      programme: "M2"
+      topic_fr: "Impact des préférences d'appariement sur la transmission du génome" 
 
 # Pour remplir une rubrique, remplacer « stages: [] » ou « projets: [] » par :
 # stages:
