@@ -1,0 +1,20 @@
+fr:
+  - label: Accueil
+    url: index.html
+    section: accueil
+  - label: Publications
+    url: publications.html
+    section: publications
+  - label: Enseignement et encadrement
+    url: enseignementetautre.html
+    section: enseignement
+en:
+  - label: Home
+    url: index_english.html
+    section: accueil
+  - label: Publications
+    url: publications_english.html
+    section: publications
+  - label: Teaching and supervision
+    url: enseignementetautre_english.html
+    section: enseignement

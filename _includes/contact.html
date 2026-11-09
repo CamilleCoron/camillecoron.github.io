@@ -1,0 +1,5 @@
+<aside class="contact">
+  <h3>{% if page.lang == 'fr' %}Me contacter{% else %}Contact{% endif %}</h3>
+  <p><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></p>
+  <p>{{ site.data.contact.institution }}<br>{{ site.data.contact.address }}{% if site.data.contact.office != '' %}<br>{% if page.lang == 'fr' %}Bureau{% else %}Office{% endif %} {{ site.data.contact.office }}{% endif %}</p>
+</aside>

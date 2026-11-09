@@ -1,0 +1,25 @@
+doctorat:
+  - name: Gaspard Dousson-Lys
+    url: https://mia-ps.inrae.fr/node/1023
+  - name: Violette Kubiaczyk
+    url: https://www.lpsm.paris/users/kubiaczyk/index
+  - name: Leo Micollet
+    url: https://www.linkedin.com/in/l%C3%A9o-micollet-656070208/?originalSubdomain=fr
+  - name: Emma Thulliez
+    url: https://ethulliez.github.io/
+  - name: Arnaud Becheler
+    url: https://becheler.github.io/
+
+stages: []
+projets: []
+
+# Pour remplir une rubrique, remplacer « stages: [] » ou « projets: [] » par :
+# stages:
+#   - name: "Prénom Nom"
+#     year: "Année"
+#     programme: "Formation"
+#     topic_fr: "Sujet du stage ou du projet"
+#     topic_en: "English title (facultatif ; sinon le titre français est utilisé)"
+#     supervisors: "Co-encadrants (facultatif)"
+#     url: "https://... (facultatif, supprimer cette ligne si aucun lien)"
+# Ajouter une nouvelle entrée « - name: ... » pour chaque étudiant.

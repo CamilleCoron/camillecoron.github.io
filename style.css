@@ -1,0 +1,66 @@
+:root { color-scheme: light; --text: #29354a; --accent: #344e80; --muted: #59677d; --line: #dce3ed; --soft: #f4f6fa; }
+* { box-sizing: border-box; }
+body { margin: 0; color: var(--text); background: #fff; font: 16px/1.7 system-ui, -apple-system, "Segoe UI", sans-serif; }
+a { color: var(--accent); text-underline-offset: 4px; overflow-wrap: anywhere; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible { outline: 3px solid #b56b23; outline-offset: 4px; }
+h1, h2, h3, h4, p { margin-top: 0; }
+h1 { font-size: 32px; line-height: 1.15; letter-spacing: -1px; margin-bottom: 12px; }
+h2 { font-size: 35px; line-height: 1.25; letter-spacing: -1px; margin-bottom: 30px; font-weight: 600; }
+h3 { font-size: 18px; line-height: 1.5; color: var(--accent); margin-bottom: 14px; }
+h4 { font-size: 18px; line-height: 1.5; margin-bottom: 14px; font-weight: 600; }
+p { margin-bottom: 18px; }
+.site { display: grid; grid-template-columns: 245px minmax(0, 1fr); gap: 0 58px; max-width: 1240px; padding: 45px 48px 0; margin: auto; }
+.sidebar { align-self: start; }
+.identity { display: flex; flex-direction: column; align-items: flex-start; gap: 25px; }
+.portrait { width: 112px; height: 132px; object-fit: cover; border-radius: 3px; }
+.affiliation { font-size: 9px; font-weight: 700; letter-spacing: 1.6px; color: var(--muted); margin-bottom: 14px; }
+.role { font-size: 15px; margin-bottom: 8px; }
+.team { font-size: 13px; color: var(--muted); margin-bottom: 0; }
+.navigation { display: flex; flex-direction: column; margin-top: 30px; }
+.navigation a { padding: 10px 14px; border-left: 3px solid transparent; font-size: 14px; text-decoration: none; color: var(--muted); }
+.navigation a[aria-current] { background: #edf2f9; color: var(--accent); border-color: var(--accent); font-weight: 600; }
+.navigation a:hover { color: var(--accent); background: var(--soft); }
+.navigation .language { margin-top: 18px; font-size: 13px; }
+main { min-width: 0; padding-bottom: 24px; }
+.lead { font-size: 21px; line-height: 1.6; }
+.contact { margin: 24px 0 30px; padding: 18px 22px; background: var(--soft); display: flex; flex-wrap: wrap; gap: 5px 22px; font-size: 14px; }
+.contact h3 { width: 100%; font-size: 15px; margin-bottom: 5px; }
+.contact p { margin: 0; }
+.row { border-top: 1px solid var(--line); padding: 26px 0; }
+.row p:last-child { margin-bottom: 0; }
+.student-list { list-style: none; padding: 0; margin: 0; }
+.student-list li { margin-bottom: 12px; }
+.student-list p { margin: 3px 0; font-size: 14px; }
+.muted { color: var(--muted); font-size: 14px; }
+.papers { list-style: none; padding: 0; margin: 0; }
+.papers li { padding: 24px 0; border-top: 1px solid var(--line); font-size: 14px; }
+.papers li > a:first-child { display: block; margin-bottom: 8px; font-size: 18px; font-weight: 600; line-height: 1.5; }
+.institutions { grid-column: 1 / -1; display: flex; align-items: center; justify-content: center; gap: 65px; border-top: 1px solid var(--line); padding: 32px 0 40px; }
+.institutions a { display: flex; align-items: center; max-width: 29%; }
+.institutions img { width: 165px; max-width: 100%; height: 55px; object-fit: contain; }
+.skip { position: absolute; left: -10000px; }
+.skip:focus { left: 20px; top: 10px; background: white; padding: 10px; z-index: 5; }
+@media (max-width: 760px) {
+  .site { display: block; padding: 28px 22px 0; }
+  .identity { flex-direction: row-reverse; align-items: center; justify-content: space-between; gap: 18px; }
+  .portrait { width: 90px; height: 110px; flex-shrink: 0; }
+  h1 { font-size: 30px; }
+  h2 { font-size: 29px; }
+  .role { font-size: 14px; }
+  .team { font-size: 12px; }
+  .affiliation { letter-spacing: 1px; }
+  .navigation { flex-direction: row; flex-wrap: wrap; border-bottom: 1px solid var(--line); padding-bottom: 16px; margin: 24px 0 30px; gap: 4px 0; }
+  .navigation a { font-size: 13px; padding: 8px 10px; }
+  .navigation .language { margin-top: 0; }
+  .lead { font-size: 19px; }
+  .contact { padding: 16px; }
+  .institutions { gap: 22px; padding: 25px 0; }
+  .institutions img { height: 42px; }
+}
+@media print {
+  .site { display: block; padding: 0; }
+  .identity { flex-direction: row; margin-bottom: 25px; }
+  .navigation, .skip { display: none; }
+  .row, .papers li { break-inside: avoid; }
+}

@@ -1,0 +1,12 @@
+title: Camille Coron
+url: https://camillecoron.github.io
+baseurl: ""
+markdown: kramdown
+exclude:
+  - propositions
+  - tools
+  - README.txt
+  - SOURCES.txt
+  - Gemfile
+  - Gemfile.lock
+  - vendor
