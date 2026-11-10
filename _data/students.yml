@@ -10,19 +10,76 @@ doctorat:
   - name: Arnaud Becheler
     url: https://becheler.github.io/
 
-stages: 
-    - name: "Gaspard Dousson Lys"
-      year: "2025"
-      programme: "M2"
-      topic_fr: "Estimation d'histoire migratoire à partir de données d'admixture"
-      supervisors: "Tristan Mary-Huard et Paul Verdu"
-projets:
-    - name: "Juan Mardomingo Sanz et Raphaël Tran Thanh"
-      year: "2025"
-      programme: "M2"
-      topic_fr: "Impact des préférences d'appariement sur la transmission du génome" 
+# Source : ExtraitCVEncadrements.pdf, page 3, section 5.
+# Les entrées marquées « M2 project » sont des projets ; les autres relèvent des stages.
+stages:
+  - name: Gaspard Dousson-Lys
+    year: "2025"
+    programme: M2
+    topic_fr: Étude de modèles probabilistes du génome de populations hybrides.
+    topic_en: Studies of probabilistic models of the genome of hybrid populations.
+  - name: Lucas Machado Moschen
+    year: "2024"
+    programme: M2
+    topic_fr: Étude probabiliste du contrôle des populations de moustiques par la technique de l’insecte stérile.
+    topic_en: Probabilistic study of mosquito population control using the sterile insect technique.
+  - name: Taliesin Romanet
+    year: "2024"
+    programme: M2
+    topic_fr: Étude de l’équilibre mutation-sélection dans un modèle de Kingman.
+    topic_en: Study of the mutation-selection balance in a Kingman model.
+  - name: Luce Breuil
+    year: "2021"
+    programme: 3e année, École Polytechnique
+    programme_en: 3rd year, École Polytechnique
+    topic_fr: Étude de la composition génétique d’une population à transmission biparentale.
+    topic_en: Study of the genetic composition of a population with biparental transmission.
+    note_fr: Prix de stage de la chaire MMB.
+    note_en: MMB Chair internship prize.
+  - name: Victor Voisin
+    year: "2021"
+    programme: M1
+    topic_fr: Étude des graphes de recombinaison ancestrale et du coalescent markovien séquentiel.
+    topic_en: Study of ancestral recombination graphs and the sequential Markov coalescent.
 
-# Pour remplir une rubrique, remplacer « stages: [] » ou « projets: [] » par :
+projets:
+  - name: Gaspard Dousson-Lys, Angelo Ciambelli
+    year: "2024-2025"
+    programme: M2
+    topic_fr: Estimation de paramètres de sélection dans des populations hybrides à partir de données de niveaux d’admixture.
+    topic_en: Estimation of selection parameters in hybrid populations from admixture level data.
+    supervisors: Tristan Mary-Huard, Paul Verdu
+  - name: Juan Mardomingo Sanz, Raphaël Tran-Thanh
+    year: "2024-2025"
+    programme: M2
+    topic_fr: Comprendre l’impact des modes de reproduction sur la composition génétique des populations biparentales.
+    topic_en: Understanding the impact of reproductive modes on the genetic composition of biparental populations.
+    supervisors: Diala Abu Awad
+  - name: Namchhoen Veng, Taliesin Romanet
+    year: "2023-2024"
+    programme: M2
+    topic_fr: Modélisation probabiliste du contrôle des populations de moustiques par des lâchers de mâles stériles.
+    topic_en: Probabilistic modelling of mosquito population control through releases of sterile males.
+    supervisors: Luis Almeida
+  - name: Alice Fohr, Ariel Offenstadt, Raphaël Poure
+    year: "2022-2023"
+    programme: M2
+    topic_fr: Évolution des traits d’histoire de vie.
+    topic_en: Evolution of life history traits.
+    supervisors: Diala Abu Awad
+  - name: Gauthier Delvoye, Ilias Ftouhi
+    year: "2016-2017"
+    programme: M2
+    topic_fr: Modélisation de la compétition chez les levures.
+    topic_en: Modelling competition in yeasts.
+  - name: Tristan Roget, Amaury Darny
+    year: "2014-2015"
+    programme: M2
+    topic_fr: Modèles stochastiques de démogénétique environnementale.
+    topic_en: Stochastic models of environmental demo-genetics.
+    supervisors: Christophe Giraud (Laboratoire de Mathématiques d’Orsay), Stéphane Dupas
+
+# Pour ajouter une entrée à une rubrique, suivre cet exemple :
 # stages:
 #   - name: "Prénom Nom"
 #     year: "Année"

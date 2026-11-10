@@ -18,6 +18,7 @@ p { margin-bottom: 18px; }
 .role { font-size: 15px; margin-bottom: 8px; }
 .team { font-size: 13px; color: var(--muted); margin-bottom: 0; }
 .navigation { display: flex; flex-direction: column; margin-top: 30px; }
+.navigation-links { display: flex; flex-direction: column; }
 .navigation a { padding: 10px 14px; border-left: 3px solid transparent; font-size: 14px; text-decoration: none; color: var(--muted); }
 .navigation a[aria-current] { background: #edf2f9; color: var(--accent); border-color: var(--accent); font-weight: 600; }
 .navigation a:hover { color: var(--accent); background: var(--soft); }
@@ -50,9 +51,11 @@ main { min-width: 0; padding-bottom: 24px; }
   .role { font-size: 14px; }
   .team { font-size: 12px; }
   .affiliation { letter-spacing: 1px; }
-  .navigation { flex-direction: row; flex-wrap: wrap; border-bottom: 1px solid var(--line); padding-bottom: 16px; margin: 24px 0 30px; gap: 4px 0; }
+  .navigation { border-bottom: 1px solid var(--line); padding-bottom: 16px; margin: 24px 0 30px; }
+  .navigation-links { flex-direction: row; gap: 4px; overflow-x: auto; padding: 4px 0 8px; scrollbar-width: thin; }
   .navigation a { font-size: 13px; padding: 8px 10px; }
-  .navigation .language { margin-top: 0; }
+  .navigation-links a { flex: 0 0 auto; white-space: nowrap; }
+  .navigation .language { align-self: flex-start; margin-top: 4px; }
   .lead { font-size: 19px; }
   .contact { padding: 16px; }
   .institutions { gap: 22px; padding: 25px 0; }

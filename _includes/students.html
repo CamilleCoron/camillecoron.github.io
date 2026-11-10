@@ -4,9 +4,10 @@
   {% for student in students %}
   <li>
     {% if student.url %}<a href="{{ student.url | escape }}">{{ student.name | escape }}</a>{% else %}{{ student.name | escape }}{% endif %}{% if student.year %} <span class="muted">· {{ student.year | escape }}</span>{% endif %}
-    {% if student.programme %}<p>{{ student.programme | escape }}</p>{% endif %}
+    {% if student.programme %}<p>{% if page.lang == 'en' %}{{ student.programme_en | default: student.programme | escape }}{% else %}{{ student.programme | escape }}{% endif %}</p>{% endif %}
     {% if student.topic_fr %}<p>{% if page.lang == 'en' %}{{ student.topic_en | default: student.topic_fr | escape }}{% else %}{{ student.topic_fr | escape }}{% endif %}</p>{% endif %}
     {% if student.supervisors %}<p>{% if page.lang == 'fr' %}Co-encadrement{% else %}Co-supervision{% endif %} : {{ student.supervisors | escape }}</p>{% endif %}
+    {% if student.note_fr %}<p class="muted">{% if page.lang == 'en' %}{{ student.note_en | default: student.note_fr | escape }}{% else %}{{ student.note_fr | escape }}{% endif %}</p>{% endif %}
   </li>
   {% endfor %}
 </ul>

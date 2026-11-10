@@ -1,7 +1,9 @@
 <nav class="navigation" aria-label="{% if page.lang == 'fr' %}Navigation principale{% else %}Main navigation{% endif %}">
   {% assign items = site.data.navigation[page.lang] %}
+  <div class="navigation-links">
   {% for item in items %}
   <a href="{{ item.url }}"{% if page.section == item.section %} aria-current="page"{% endif %}>{{ item.label }}</a>
   {% endfor %}
+  </div>
   <a class="language" href="{{ page.translation }}" lang="{{ page.other_lang }}" hreflang="{{ page.other_lang }}">{% if page.lang == 'fr' %}English version{% else %}Version française{% endif %}</a>
 </nav>

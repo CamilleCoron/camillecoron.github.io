@@ -3,6 +3,7 @@ url: https://camillecoron.github.io
 baseurl: ""
 markdown: kramdown
 exclude:
+  - Pour moi
   - propositions
   - tools
   - README.txt
