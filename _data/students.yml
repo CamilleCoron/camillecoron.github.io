@@ -45,36 +45,30 @@ stages:
 projets:
   - name: Gaspard Dousson-Lys, Angelo Ciambelli
     year: "2024-2025"
-    programme: M2
     topic_fr: Estimation de paramètres de sélection dans des populations hybrides à partir de données de niveaux d’admixture.
     topic_en: Estimation of selection parameters in hybrid populations from admixture level data.
     supervisors: Tristan Mary-Huard, Paul Verdu
   - name: Juan Mardomingo Sanz, Raphaël Tran-Thanh
     year: "2024-2025"
-    programme: M2
     topic_fr: Comprendre l’impact des modes de reproduction sur la composition génétique des populations biparentales.
     topic_en: Understanding the impact of reproductive modes on the genetic composition of biparental populations.
     supervisors: Diala Abu Awad
   - name: Namchhoen Veng, Taliesin Romanet
     year: "2023-2024"
-    programme: M2
     topic_fr: Modélisation probabiliste du contrôle des populations de moustiques par des lâchers de mâles stériles.
     topic_en: Probabilistic modelling of mosquito population control through releases of sterile males.
     supervisors: Luis Almeida
   - name: Alice Fohr, Ariel Offenstadt, Raphaël Poure
     year: "2022-2023"
-    programme: M2
     topic_fr: Évolution des traits d’histoire de vie.
     topic_en: Evolution of life history traits.
     supervisors: Diala Abu Awad
   - name: Gauthier Delvoye, Ilias Ftouhi
     year: "2016-2017"
-    programme: M2
     topic_fr: Modélisation de la compétition chez les levures.
     topic_en: Modelling competition in yeasts.
   - name: Tristan Roget, Amaury Darny
     year: "2014-2015"
-    programme: M2
     topic_fr: Modèles stochastiques de démogénétique environnementale.
     topic_en: Stochastic models of environmental demo-genetics.
     supervisors: Christophe Giraud (Laboratoire de Mathématiques d’Orsay), Stéphane Dupas
