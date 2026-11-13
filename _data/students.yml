@@ -13,6 +13,16 @@ doctorat:
 # Source : ExtraitCVEncadrements.pdf, page 3, section 5.
 # Les entrées marquées « M2 project » sont des projets ; les autres relèvent des stages.
 stages:
+  - name: Jean-Baptiste Verbrugghe
+    year: "2026"
+    programme: L3
+    topic_fr: Coalescents et coalescents séquentiellement Markoviens
+    topic_en: Coalescents and sequentially Markov coalescents
+  - name: Théo Goupil
+    year: "2026"
+    programme: L2
+    topic_fr: Génétique des populations biparentales
+    topic_en: Biparental population genetics
   - name: Gaspard Dousson Lys
     year: "2025"
     programme: M2
