@@ -1,5 +1,5 @@
 doctorat:
-  - name: Gaspard Dousson-Lys
+  - name: Gaspard Dousson Lys
     url: https://gaspard.doussonlys.fr
   - name: Violette Kubiaczyk
     url: https://www.lpsm.paris/users/kubiaczyk/index
@@ -13,7 +13,7 @@ doctorat:
 # Source : ExtraitCVEncadrements.pdf, page 3, section 5.
 # Les entrées marquées « M2 project » sont des projets ; les autres relèvent des stages.
 stages:
-  - name: Gaspard Dousson-Lys
+  - name: Gaspard Dousson Lys
     year: "2025"
     programme: M2
     topic_fr: Étude de modèles probabilistes du génome de populations hybrides.
